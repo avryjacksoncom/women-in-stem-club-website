@@ -1,5 +1,6 @@
 import React from 'react';
 import dog from './dog.webp';
+import cat from './cat.jpg'
 import { Link } from 'react-router-dom';
 
 export default function Home() {
@@ -71,7 +72,7 @@ export default function Home() {
                             >
                                 Dog
                             </a>
-                                <img src={dog} alt="Featured Event" className="small-image" />;
+                                <img src={cat} alt="Featured Event" className="small-image" />;
                             <p className="text-sm pb-3">
                                 By <a href="#" className="font-semibold hover:text-gray-800">Srudent</a>, Scheduled on Tuesday 11th, 2024
                             </p>
