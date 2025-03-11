@@ -1,5 +1,5 @@
 import React from 'react';
-import zomgImage from './zomg.jpg';
+import dog from './dog.webp';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
@@ -13,10 +13,10 @@ export default function Home() {
                         href="#"
                         className="font-bold text-gray-800 uppercase hover:text-gray-700 text-5xl"
                     >
-                        FurryUs.com 
+                        Women's in Stem at CSUDH
                     </a>
                     <p className="text-lg text-gray-600">
-                        Your guide to Southern California's furry events and community.
+                        Information for Women's stem Club
                     </p>
                 </div>
             </header>
@@ -30,19 +30,19 @@ export default function Home() {
                     </Link>
 
                     <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">
-                        Events
-                    </a>
-                    <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">
-                        Art & Media
+                        Resources
                     </a>
                     <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">
                         Community
                     </a>
                     <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">
-                        Meetups
+                        Internships
                     </a>
                     <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">
-                        Resources
+                        Events
+                    </a>
+                    <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">
+                        About us
                     </a>
                 </div>
             </nav>
@@ -63,20 +63,20 @@ export default function Home() {
                                 href="#"
                                 className="text-blue-700 text-sm font-bold uppercase pb-4"
                             >
-                                Upcoming Event
+                                News
                             </a>
                             <a
                                 href="#"
                                 className="text-3xl font-bold hover:text-gray-700 pb-4"
                             >
-                                Meow Mixx Furry Rave 18+
+                                Dog
                             </a>
-                                <img src={zomgImage} alt="Featured Event" className="small-image" />;
+                                <img src={dog} alt="Featured Event" className="small-image" />;
                             <p className="text-sm pb-3">
-                                By <a href="#" className="font-semibold hover:text-gray-800">FurCon Team</a>, Scheduled on December 10th, 2024
+                                By <a href="#" className="font-semibold hover:text-gray-800">Srudent</a>, Scheduled on Tuesday 11th, 2024
                             </p>
                             <p className="pb-6">
-                                ZOMG !!? An oldweb furry rave :0 !?!
+                                Dog
                             </p>
                             <a
                                 href="#"
@@ -92,7 +92,8 @@ export default function Home() {
                         <p className="text-xl font-semibold pb-5">Event Calendar</p>
                         <iframe
                             title="Furry Events Calendar"
-                            src="https://calendar.google.com/calendar/embed?src=furryuscalendar%40gmail.com&ctz=UTC"
+                            src="https://calendar.google.com/calendar/u/0/embed?src=morernos355@gmail.com&ctz=America/Los_Angeles"
+                            
                             className="w-full h-96 border"
                             style={{ height: '700px', width: '100%' }}
                             frameBorder="0"
@@ -107,9 +108,7 @@ export default function Home() {
                     <div className="w-full bg-white shadow flex flex-col my-4 p-6">
                         <p className="text-xl font-semibold pb-5">About Us</p>
                         <p>
-                            We are a community-driven platform connecting furries in Southern
-                            California. From conventions to casual meetups, we help you stay
-                            connected with like-minded individuals.
+                            We are a community-driven website.
                         </p>
                         <a
                             href="#"
@@ -121,29 +120,29 @@ export default function Home() {
 
                     {/* Featured Artists */}
                     <div className="w-full bg-white shadow flex flex-col my-4 p-6">
-                        <p className="text-xl font-semibold pb-5">Featured Artists</p>
+                        <p className="text-xl font-semibold pb-5">Featured Student</p>
                         <div className="grid grid-cols-3 gap-3">
                             <img
                                 className="hover:opacity-75"
                                 src="https://source.unsplash.com/150x150/?art,illustration"
-                                alt="Artist Work"
+                                alt=" Student 1"
                             />
                             <img
                                 className="hover:opacity-75"
                                 src="https://source.unsplash.com/150x150/?digital,art"
-                                alt="Artist Work"
+                                alt=" Student 2"
                             />
                             <img
                                 className="hover:opacity-75"
                                 src="https://source.unsplash.com/150x150/?furry,art"
-                                alt="Artist Work"
+                                alt="Student 3"
                             />
                         </div>
                         <a
                             href="#"
                             className="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-6"
                         >
-                            View More Artists
+                            Learn More
                         </a>
                     </div>
                 </aside>

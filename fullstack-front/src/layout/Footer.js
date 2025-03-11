@@ -18,7 +18,7 @@ export default function Navbar() {
                         Contact Us
                     </a>
                 </div>
-                <div className="uppercase pb-6">&copy; furryus.com</div>
+                <div className="uppercase pb-6">&copy; womeninstemCSUDH</div>
             </div>
         </footer>
     );
