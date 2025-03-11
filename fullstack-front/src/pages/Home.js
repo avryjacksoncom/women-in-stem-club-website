@@ -14,7 +14,7 @@ export default function Home() {
                         href="#"
                         className="font-bold text-gray-800 uppercase hover:text-gray-700 text-5xl"
                     >
-                        Women's in Stem at CSUDH
+                        Women's in Stem at 
                     </a>
                     <p className="text-lg text-gray-600">
                         Information for Women's stem Club
