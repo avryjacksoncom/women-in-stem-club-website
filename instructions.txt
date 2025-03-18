@@ -1,5 +1,3 @@
-# women-in-stem-club-website
- Women's in stem club CSUDH
 Starting a react project example. Women-in-Stem-Website
 Our Github repo: https://github.com/avryjacksoncom/women-in-stem-club-website
  Guide to run project: 
